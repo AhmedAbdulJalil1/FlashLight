@@ -14,7 +14,7 @@ jobs:
       - name: Extract project
         run: |
           unzip -q FlashLight_Project.zip -d extracted
-          cp -r extracted/FlashLight/. .
+          cp -r extracted/. .
 
       - name: Set up Java
         uses: actions/setup-java@v4
